@@ -1,0 +1,18 @@
+{
+  "name": "claude-chat-companion",
+  "displayName": "Claude Chat Companion — 4 recursos",
+  "version": "0.1.0",
+  "description": "Adapta para o Claude Chat fluxos inspirados em OmniRoute, Claude-Mem, Headroom e Task Observer. Somente skills; sem hooks, servidores ou execução local.",
+  "author": {
+    "name": "RimurTempest"
+  },
+  "repository": "https://github.com/RimurTempest/claude-plugins-hub",
+  "keywords": [
+    "claude-chat",
+    "browser",
+    "memory-handoff",
+    "context-briefing",
+    "task-observer",
+    "omniroute-guide"
+  ]
+}
