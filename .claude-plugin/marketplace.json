@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "rimurtempest-plugins-hub",
+  "description": "Catálogo independente de plugins e guia de integração Claude; sem instalação no computador corporativo durante a preparação",
+  "owner": {
+    "name": "RimurTempest",
+    "url": "https://github.com/RimurTempest"
+  },
+  "plugins": [
+    {
+      "name": "claude-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "thedotmack/claude-mem",
+        "path": "plugin"
+      },
+      "description": "Plugin original de memória persistente para Claude Code. Requer hooks, runtime/serviço e configuração do fornecedor; pode transmitir dados ao serviço de memória.",
+      "category": "productivity",
+      "homepage": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "name": "headroom",
+      "source": {
+        "source": "git-subdir",
+        "url": "headroomlabs-ai/headroom",
+        "path": "plugins/headroom-agent-hooks"
+      },
+      "description": "Plugin original de hooks do Headroom para Claude Code. Compressão real depende de configuração e runtime próprios.",
+      "category": "productivity",
+      "homepage": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "name": "task-observer",
+      "source": {
+        "source": "github",
+        "repo": "rebelytics/one-skill-to-rule-them-all"
+      },
+      "description": "Skill/plugin original de observação de tarefas, com revisão humana das melhorias. Na interface web opera em modo handoff.",
+      "category": "productivity",
+      "homepage": "https://github.com/rebelytics/one-skill-to-rule-them-all"
+    },
+    {
+      "name": "omniroute-setup",
+      "source": "./plugins/omniroute-setup",
+      "description": "Guia de integração do gateway OmniRoute. Não instala nem inicia o servidor OmniRoute.",
+      "category": "developer-tools",
+      "homepage": "https://github.com/diegosouzapw/OmniRoute"
+    }
+  ]
+}
