@@ -1,0 +1,17 @@
+{
+  "name": "omniroute-setup",
+  "displayName": "OmniRoute — Guia de Configuração",
+  "version": "0.1.0",
+  "description": "Instruções de configuração segura do gateway OmniRoute, sem instalá-lo ou iniciá-lo.",
+  "author": {
+    "name": "RimurTempest"
+  },
+  "repository": "https://github.com/RimurTempest/claude-plugins-hub",
+  "homepage": "https://github.com/diegosouzapw/OmniRoute",
+  "keywords": [
+    "omniroute",
+    "claude-code",
+    "gateway",
+    "setup-guide"
+  ]
+}
