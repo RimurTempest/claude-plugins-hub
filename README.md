@@ -65,3 +65,17 @@ Se no futuro houver um ambiente pessoal/remoto autorizado com Claude Code CLI e 
 - [Task Observer — instruções do autor](https://github.com/rebelytics/one-skill-to-rule-them-all#quick-install)
 
 **Propriedade:** catálogo pessoal de RimurTempest. Os projetos listados pertencem aos seus respectivos autores e mantêm suas licenças originais.
+
+## Versão exclusiva para Claude Chat (sem instalação local)
+
+Foi adicionada a pasta [`plugins/claude-chat-companion`](plugins/claude-chat-companion), com quatro **skills** textuais e um manifesto, destinados ao **Claude Chat no navegador**:
+
+- `omniroute-web-guide`: diagnóstico de opções para o OmniRoute, sem gateway ativo;
+- `claude-mem-handoff`: resumo de continuidade portátil, sem memória automática;
+- `headroom-context`: compactação manual do conteúdo da conversa, sem proxy;
+- `task-observer-web`: observações e propostas de melhoria para revisão humana, sem escrita automática em disco.
+
+Essas quatro skills **não são os produtos originais**: são adaptações independentes, de escopo limitado, para a interface web. O conteúdo está preparado, mas não foi instalado na conta Claude. A importação deve ocorrer pelo fluxo de plugin personalizado da conta (quando disponível), que normalmente pede um arquivo `.plugin` ou ZIP; **adicionar o repositório GitHub ao Claude Chat não ativa o marketplace automaticamente**. Repositórios sincronizados com marketplaces de organização pertencem aos controles dos planos Team/Enterprise e têm regras próprias de visibilidade.
+
+Em 29/10/2026, a Anthropic está implementando gradualmente uma nova página **Plugins** (o menu antigo pode ainda se chamar **Personalizar**). Consulte [instruções de instalação de plugins](https://support.claude.com/pt/articles/13837440-usar-plugins-no-claude) e [o anúncio do novo menu](https://support.claude.com/pt/articles/17740565-gerenciar-plugins-skills-e-conectores-em-uma-pagina-de-plugins). Para o método de **criação com Claude**, consulte [o tutorial de plugins personalizados](https://academy.claude.com/tutorials/how-to-build-a-plugin-from-scratch-in-cowork).
+
