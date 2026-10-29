@@ -45,6 +45,13 @@
       "description": "Guia de integração do gateway OmniRoute. Não instala nem inicia o servidor OmniRoute.",
       "category": "developer-tools",
       "homepage": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "name": "claude-chat-companion",
+      "displayName": "Claude Chat Companion (versão navegador)",
+      "source": "./plugins/claude-chat-companion",
+      "description": "Adaptação de quatro fluxos para Claude Chat: OmniRoute (guia), Claude-Mem (handoff), Headroom (resumo), Task Observer (observações). Sem hooks ou serviços locais.",
+      "category": "productivity"
     }
   ]
 }
